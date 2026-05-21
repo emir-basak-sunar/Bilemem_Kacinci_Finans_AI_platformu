@@ -1,0 +1,122 @@
+[
+  {
+    "feature": "close_to_sma_14",
+    "shap_mean_abs": 0.0036215563
+  },
+  {
+    "feature": "close_to_ichimoku_base",
+    "shap_mean_abs": 0.002605842
+  },
+  {
+    "feature": "close_to_ema_14",
+    "shap_mean_abs": 0.002265576
+  },
+  {
+    "feature": "rsi_14",
+    "shap_mean_abs": 0.0014317292
+  },
+  {
+    "feature": "close_to_ichimoku_conv",
+    "shap_mean_abs": 0.0014169407
+  },
+  {
+    "feature": "close_to_ichimoku_a",
+    "shap_mean_abs": 0.0010780634
+  },
+  {
+    "feature": "macd_signal_norm",
+    "shap_mean_abs": 0.0008693302
+  },
+  {
+    "feature": "parkinson_vol_5d",
+    "shap_mean_abs": 0.0008503983
+  },
+  {
+    "feature": "return_lag_20",
+    "shap_mean_abs": 0.0008434621
+  },
+  {
+    "feature": "volume_return_lag_1",
+    "shap_mean_abs": 0.0007915478
+  },
+  {
+    "feature": "up_down_vol_ratio",
+    "shap_mean_abs": 0.0007775672
+  },
+  {
+    "feature": "volume_return_lag_2",
+    "shap_mean_abs": 0.0007422153
+  },
+  {
+    "feature": "autocorr_5",
+    "shap_mean_abs": 0.0007125097
+  },
+  {
+    "feature": "vol_ratio_5_20",
+    "shap_mean_abs": 0.0006697701
+  },
+  {
+    "feature": "return_lag_5",
+    "shap_mean_abs": 0.0006583505
+  },
+  {
+    "feature": "close_return_lag_5",
+    "shap_mean_abs": 0.0006532327
+  },
+  {
+    "feature": "close_to_ema_7",
+    "shap_mean_abs": 0.0006280347
+  },
+  {
+    "feature": "return_lag_3",
+    "shap_mean_abs": 0.0006240013
+  },
+  {
+    "feature": "close_to_sma_100",
+    "shap_mean_abs": 0.0005956285
+  },
+  {
+    "feature": "volatility_5d",
+    "shap_mean_abs": 0.0005808818
+  },
+  {
+    "feature": "close_to_ichimoku_b",
+    "shap_mean_abs": 0.0005483327
+  },
+  {
+    "feature": "close_to_ema_21",
+    "shap_mean_abs": 0.0005462067
+  },
+  {
+    "feature": "macd_hist_norm",
+    "shap_mean_abs": 0.0005446416
+  },
+  {
+    "feature": "di_plus",
+    "shap_mean_abs": 0.0005380612
+  },
+  {
+    "feature": "mfi_14",
+    "shap_mean_abs": 0.0005126261
+  },
+  {
+    "feature": "return_5d",
+    "shap_mean_abs": 0.0004804518
+  },
+  {
+    "feature": "gk_volatility",
+    "shap_mean_abs": 0.0004614732
+  },
+  {
+    "feature": "bb_position",
+    "shap_mean_abs": 0.000432006
+  },
+  {
+    "feature": "volatility_10d",
+    "shap_mean_abs": 0.0003843783
+  },
+  {
+    "feature": "cs_rank_rsi_14",
+    "shap_mean_abs": 0.0003705474
+  }
+]

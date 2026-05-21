@@ -1,0 +1,122 @@
+[
+  {
+    "feature": "close_to_vwap",
+    "shap_mean_abs": 0.0203893855
+  },
+  {
+    "feature": "macd_hist_norm",
+    "shap_mean_abs": 0.0114963623
+  },
+  {
+    "feature": "zscore_50",
+    "shap_mean_abs": 0.0065596243
+  },
+  {
+    "feature": "close_to_ichimoku_base",
+    "shap_mean_abs": 0.0058087455
+  },
+  {
+    "feature": "skewness_20",
+    "shap_mean_abs": 0.0054407818
+  },
+  {
+    "feature": "vwap_dev_5",
+    "shap_mean_abs": 0.0048840251
+  },
+  {
+    "feature": "close_to_sma_100",
+    "shap_mean_abs": 0.0038536072
+  },
+  {
+    "feature": "parkinson_vol_5d",
+    "shap_mean_abs": 0.0031574152
+  },
+  {
+    "feature": "gk_volatility",
+    "shap_mean_abs": 0.002721986
+  },
+  {
+    "feature": "parkinson_vol_20d",
+    "shap_mean_abs": 0.0024317147
+  },
+  {
+    "feature": "close_to_kc_lower",
+    "shap_mean_abs": 0.0024280348
+  },
+  {
+    "feature": "volatility_20d",
+    "shap_mean_abs": 0.0024237137
+  },
+  {
+    "feature": "efficiency_ratio_20",
+    "shap_mean_abs": 0.002227603
+  },
+  {
+    "feature": "realized_skew_20",
+    "shap_mean_abs": 0.0021742508
+  },
+  {
+    "feature": "kurtosis_20",
+    "shap_mean_abs": 0.001687546
+  },
+  {
+    "feature": "close_to_sma_200",
+    "shap_mean_abs": 0.001635483
+  },
+  {
+    "feature": "realized_skew_60",
+    "shap_mean_abs": 0.001571532
+  },
+  {
+    "feature": "mfi_14",
+    "shap_mean_abs": 0.001547466
+  },
+  {
+    "feature": "di_plus",
+    "shap_mean_abs": 0.0014850675
+  },
+  {
+    "feature": "return_20d",
+    "shap_mean_abs": 0.0014832921
+  },
+  {
+    "feature": "up_down_vol_ratio",
+    "shap_mean_abs": 0.0013296813
+  },
+  {
+    "feature": "macd_signal_norm",
+    "shap_mean_abs": 0.0012650677
+  },
+  {
+    "feature": "amihud_illiq",
+    "shap_mean_abs": 0.0012523741
+  },
+  {
+    "feature": "close_return_lag_10",
+    "shap_mean_abs": 0.0011922698
+  },
+  {
+    "feature": "bb_position",
+    "shap_mean_abs": 0.0011191453
+  },
+  {
+    "feature": "return_10d",
+    "shap_mean_abs": 0.0010521208
+  },
+  {
+    "feature": "bb_width",
+    "shap_mean_abs": 0.0009955984
+  },
+  {
+    "feature": "di_minus",
+    "shap_mean_abs": 0.0009761993
+  },
+  {
+    "feature": "close_to_ichimoku_a",
+    "shap_mean_abs": 0.0008959495
+  },
+  {
+    "feature": "autocorr_5",
+    "shap_mean_abs": 0.000744324
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "feature": "close_to_ichimoku_conv",
+    "shap_mean_abs": 0.0021974042
+  },
+  {
+    "feature": "di_spread",
+    "shap_mean_abs": 0.0014380844
+  },
+  {
+    "feature": "close_to_ema_14",
+    "shap_mean_abs": 0.0011257738
+  },
+  {
+    "feature": "close_to_ema_7",
+    "shap_mean_abs": 0.0011185267
+  },
+  {
+    "feature": "return_lag_5",
+    "shap_mean_abs": 0.0010649519
+  },
+  {
+    "feature": "close_to_ichimoku_base",
+    "shap_mean_abs": 0.0009186296
+  },
+  {
+    "feature": "close_to_ema_21",
+    "shap_mean_abs": 0.0008814663
+  },
+  {
+    "feature": "close_to_ichimoku_a",
+    "shap_mean_abs": 0.0008626022
+  },
+  {
+    "feature": "adx",
+    "shap_mean_abs": 0.0007763093
+  },
+  {
+    "feature": "close_return_lag_5",
+    "shap_mean_abs": 0.0005275678
+  },
+  {
+    "feature": "volume_return_lag_3",
+    "shap_mean_abs": 0.0004429934
+  },
+  {
+    "feature": "mfi_14",
+    "shap_mean_abs": 0.000282511
+  },
+  {
+    "feature": "order_flow_imbalance",
+    "shap_mean_abs": 0.0002649166
+  },
+  {
+    "feature": "parkinson_vol_5d",
+    "shap_mean_abs": 0.0002267573
+  },
+  {
+    "feature": "macd_signal_norm",
+    "shap_mean_abs": 0.0002254473
+  },
+  {
+    "feature": "close_to_kc_upper",
+    "shap_mean_abs": 0.0002135631
+  },
+  {
+    "feature": "vol_ratio_5_20",
+    "shap_mean_abs": 0.000196078
+  },
+  {
+    "feature": "gap",
+    "shap_mean_abs": 0.0001868603
+  },
+  {
+    "feature": "volume_return_lag_2",
+    "shap_mean_abs": 0.000171007
+  },
+  {
+    "feature": "di_minus",
+    "shap_mean_abs": 0.0001619586
+  },
+  {
+    "feature": "close_to_ema_50",
+    "shap_mean_abs": 0.0001227079
+  },
+  {
+    "feature": "return_10d",
+    "shap_mean_abs": 0.0001188289
+  },
+  {
+    "feature": "return_lag_3",
+    "shap_mean_abs": 0.0001136686
+  },
+  {
+    "feature": "order_flow_ma5",
+    "shap_mean_abs": 0.0001100369
+  },
+  {
+    "feature": "parkinson_vol_20d",
+    "shap_mean_abs": 0.0001062043
+  },
+  {
+    "feature": "close_to_kc_lower",
+    "shap_mean_abs": 9.93718e-05
+  },
+  {
+    "feature": "volatility_5d",
+    "shap_mean_abs": 9.18933e-05
+  },
+  {
+    "feature": "skewness_20",
+    "shap_mean_abs": 6.53065e-05
+  },
+  {
+    "feature": "close_to_sma_100",
+    "shap_mean_abs": 6.17695e-05
+  },
+  {
+    "feature": "close_return_lag_1",
+    "shap_mean_abs": 5.22066e-05
+  }
+]

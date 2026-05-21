@@ -1,0 +1,110 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+  tomcat:
+    max-http-form-post-size: 5MB
+    max-swallow-size: 5MB
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+
+  application:
+    name: finai-platform
+
+  # PostgreSQL
+  datasource:
+    url: jdbc:postgresql://localhost:5433/finai_db
+    username: ${DB_USERNAME:finai}
+    password: ${DB_PASSWORD:finai_secret}
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+      idle-timeout: 300000
+      connection-timeout: 20000
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        jdbc:
+          time_zone: UTC
+
+  # Flyway
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migration
+
+  # Redis
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+      timeout: 2000ms
+      lettuce:
+        pool:
+          max-active: 16
+          max-idle: 8
+          min-idle: 4
+
+  # Kafka
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    consumer:
+      group-id: java-backend
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+
+  # Jackson
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    default-property-inclusion: non_null
+
+# JWT Configuration
+jwt:
+  secret: ${JWT_SECRET:ThisIsAVeryLongSecretKeyForJWTTokenGenerationFinAIPlatform2026!@#$%}
+  access-token-expiration: 900000      # 15 minutes in ms
+  refresh-token-expiration: 604800000  # 7 days in ms
+
+# AI Service
+ai-service:
+  base-url: ${AI_SERVICE_URL:http://localhost:8000}
+  timeout: 30000
+
+# Rate Limiting
+rate-limit:
+  market:
+    requests-per-minute: 60
+  ai:
+    requests-per-minute: 20
+  auth:
+    requests-per-minute: 10
+
+# Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: when_authorized
+
+logging:
+  level:
+    com.finai: DEBUG
+    org.springframework.security: INFO
+    org.hibernate.SQL: WARN

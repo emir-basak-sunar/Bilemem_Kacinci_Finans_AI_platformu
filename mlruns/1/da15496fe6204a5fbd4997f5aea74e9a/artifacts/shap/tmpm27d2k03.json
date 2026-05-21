@@ -1,0 +1,122 @@
+[
+  {
+    "feature": "close_to_vwap",
+    "shap_mean_abs": 0.0202330984
+  },
+  {
+    "feature": "macd_hist_norm",
+    "shap_mean_abs": 0.0119389277
+  },
+  {
+    "feature": "close_to_ichimoku_base",
+    "shap_mean_abs": 0.0078024794
+  },
+  {
+    "feature": "skewness_20",
+    "shap_mean_abs": 0.006805955
+  },
+  {
+    "feature": "zscore_50",
+    "shap_mean_abs": 0.0053362064
+  },
+  {
+    "feature": "vwap_dev_5",
+    "shap_mean_abs": 0.0037932508
+  },
+  {
+    "feature": "gk_volatility",
+    "shap_mean_abs": 0.0024817083
+  },
+  {
+    "feature": "parkinson_vol_5d",
+    "shap_mean_abs": 0.0020475744
+  },
+  {
+    "feature": "macd_signal_norm",
+    "shap_mean_abs": 0.0018083992
+  },
+  {
+    "feature": "volatility_20d",
+    "shap_mean_abs": 0.0018069954
+  },
+  {
+    "feature": "autocorr_5",
+    "shap_mean_abs": 0.0016225909
+  },
+  {
+    "feature": "parkinson_vol_20d",
+    "shap_mean_abs": 0.0015323462
+  },
+  {
+    "feature": "close_to_sma_100",
+    "shap_mean_abs": 0.0014656394
+  },
+  {
+    "feature": "up_down_vol_ratio",
+    "shap_mean_abs": 0.0014536078
+  },
+  {
+    "feature": "kurtosis_20",
+    "shap_mean_abs": 0.0013973215
+  },
+  {
+    "feature": "close_to_kc_lower",
+    "shap_mean_abs": 0.0012421706
+  },
+  {
+    "feature": "di_plus",
+    "shap_mean_abs": 0.0011436713
+  },
+  {
+    "feature": "di_minus",
+    "shap_mean_abs": 0.0010137572
+  },
+  {
+    "feature": "bb_position",
+    "shap_mean_abs": 0.0009196179
+  },
+  {
+    "feature": "mfi_14",
+    "shap_mean_abs": 0.000902503
+  },
+  {
+    "feature": "close_to_ichimoku_a",
+    "shap_mean_abs": 0.0008382463
+  },
+  {
+    "feature": "amihud_illiq",
+    "shap_mean_abs": 0.0007992394
+  },
+  {
+    "feature": "return_10d",
+    "shap_mean_abs": 0.0007511628
+  },
+  {
+    "feature": "realized_skew_20",
+    "shap_mean_abs": 0.000731423
+  },
+  {
+    "feature": "close_to_kc_upper",
+    "shap_mean_abs": 0.0007083139
+  },
+  {
+    "feature": "efficiency_ratio_20",
+    "shap_mean_abs": 0.0006895965
+  },
+  {
+    "feature": "adx",
+    "shap_mean_abs": 0.0006074407
+  },
+  {
+    "feature": "cs_rank_rsi_14",
+    "shap_mean_abs": 0.0005976679
+  },
+  {
+    "feature": "bb_width",
+    "shap_mean_abs": 0.0005351559
+  },
+  {
+    "feature": "atr_pct",
+    "shap_mean_abs": 0.0005210467
+  }
+]

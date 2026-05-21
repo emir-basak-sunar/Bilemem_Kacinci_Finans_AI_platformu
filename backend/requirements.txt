@@ -1,0 +1,37 @@
+# Core
+fastapi>=0.110
+uvicorn>=0.27
+pydantic>=2.0
+
+# Data
+pandas>=2.0
+numpy>=1.24
+yfinance>=0.2
+httpx>=0.27
+
+# ML Inference (pre-trained models only — NO training)
+xgboost>=2.0
+lightgbm>=4.0
+catboost>=1.2
+scikit-learn>=1.3
+onnxruntime>=1.17
+joblib>=1.3
+statsmodels>=0.14
+
+# Technical Analysis (for feature engineering at inference time)
+ta>=0.11
+
+# yfinance dependency (required since yfinance 0.2.50+)
+curl_cffi>=0.7
+
+# Regime Detection
+hmmlearn>=0.3
+
+# Cache & Messaging
+redis>=5.0
+
+# MLflow — model tracking & registry
+mlflow>=2.13
+
+# Security
+python-dotenv>=1.0
