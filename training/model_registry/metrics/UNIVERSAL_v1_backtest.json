@@ -1,0 +1,33 @@
+{
+  "xgboost": {
+    "mae": 0.039434,
+    "rmse": 0.066048,
+    "mape": 23.137216,
+    "directional_accuracy": 0.5818,
+    "n_samples": 6031,
+    "train_time_s": 4.7
+  },
+  "lightgbm": {
+    "mae": 0.032508,
+    "rmse": 0.059107,
+    "mape": 12.942094,
+    "directional_accuracy": 0.5886,
+    "n_samples": 6031,
+    "train_time_s": 0.8
+  },
+  "catboost": {
+    "mae": 0.031949,
+    "rmse": 0.058568,
+    "mape": 16.681625,
+    "directional_accuracy": 0.5798,
+    "n_samples": 6031,
+    "train_time_s": 6.7
+  },
+  "ensemble": {
+    "mae": 0.033511,
+    "rmse": 0.059583,
+    "mape": 16.995778,
+    "directional_accuracy": 0.5876,
+    "n_samples": 6031
+  }
+}

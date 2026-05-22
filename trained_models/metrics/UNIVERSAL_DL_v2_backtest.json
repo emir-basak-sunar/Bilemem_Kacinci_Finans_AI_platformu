@@ -1,0 +1,24 @@
+{
+  "lstm": {
+    "mae": 0.029159,
+    "rmse": 0.058006,
+    "mape": 2.697963,
+    "directional_accuracy": 0.5247,
+    "n_samples": 5971
+  },
+  "tcn": {
+    "mae": 0.028732,
+    "rmse": 0.056931,
+    "mape": 2.207272,
+    "directional_accuracy": 0.5342,
+    "n_samples": 5971
+  },
+  "tft": {
+    "mae": 0.035035,
+    "rmse": 0.068713,
+    "mape": 4.78063,
+    "directional_accuracy": 0.5488,
+    "n_samples": 5971,
+    "confidence_interval_width": 0.072112
+  }
+}

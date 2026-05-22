@@ -1,0 +1,62 @@
+{
+  "xgboost": {
+    "mae": 0.026389,
+    "rmse": 0.079837,
+    "smape": 144.7484,
+    "directional_accuracy": 0.5529,
+    "ic": 0.1736,
+    "r2": -2.1783,
+    "n_samples": 1456,
+    "train_time_s": 2.8
+  },
+  "lightgbm": {
+    "mae": 0.023752,
+    "rmse": 0.046415,
+    "smape": 147.0232,
+    "directional_accuracy": 0.5405,
+    "ic": 0.1521,
+    "r2": -0.0742,
+    "n_samples": 1456,
+    "train_time_s": 0.5
+  },
+  "catboost": {
+    "mae": 0.023917,
+    "rmse": 0.047322,
+    "smape": 147.9736,
+    "directional_accuracy": 0.5261,
+    "ic": 0.1276,
+    "r2": -0.1167,
+    "n_samples": 1456,
+    "train_time_s": 4.1
+  },
+  "ensemble": {
+    "mae": 0.024225,
+    "rmse": 0.05004,
+    "smape": 147.4506,
+    "directional_accuracy": 0.5343,
+    "ic": 0.1487,
+    "r2": -0.2486,
+    "n_samples": 1456
+  },
+  "ensemble_quant": {
+    "ic": 0.1487,
+    "ic_pvalue": 0.0,
+    "directional_acc": 0.5343,
+    "hit_rate": 0.5343,
+    "sharpe": 1.278,
+    "sortino": 1.673,
+    "calmar": 1.522,
+    "max_drawdown": -0.4187,
+    "annual_return": 0.6371,
+    "turnover": 0.2246,
+    "ls_sharpe": 1.939,
+    "ls_sortino": 3.129,
+    "ls_calmar": 2.439,
+    "ls_max_drawdown": -0.522,
+    "ls_annual_return": 1.2733,
+    "ls_turnover": 0.3977,
+    "n_samples": 1456,
+    "horizon": 1,
+    "_metrics_version": "v2.1_fixed"
+  }
+}

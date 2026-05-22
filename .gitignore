@@ -1,2 +1,81 @@
-trained_models/
-training/
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+backend/venv/
+backend/.venv/
+training/venv/
+training/.venv/
+venv/
+.venv/
+env/
+
+# ── Trained model artifacts (büyük binary dosyalar) ───────────────────────────
+trained_models/models/
+training/model_registry/models/
+# Manifest ve metrikler commit'lenir (küçük JSON dosyaları)
+# trained_models/manifests/ → commit'lenir
+# trained_models/metrics/   → commit'lenir
+
+# ── Training data (büyük parquet dosyaları) ───────────────────────────────────
+training/data/*.parquet
+training/feature_store_data/offline/
+training/optuna_studies.db
+
+# CatBoost training artifacts
+backend/catboost_info/
+training/catboost_info/
+
+# ── Secrets & environment ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+application-local.yml
+application-prod.yml
+application-secret.yml
+
+# ── Node.js / Frontend ────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# ── Java / Maven ──────────────────────────────────────────────────────────────
+spring-backend/target/
+spring-backend/.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+Thumbs.db
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+*.tsv
+
+# ── Redis / DB dumps ──────────────────────────────────────────────────────────
+dump.rdb
+*.sql.gz
+
+# ── ONNX data dosyaları (büyük) ───────────────────────────────────────────────
+*.onnx.data

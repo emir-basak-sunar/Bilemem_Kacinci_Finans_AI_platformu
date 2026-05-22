@@ -1,0 +1,204 @@
+{
+  "price_action": {
+    "name": "price_action",
+    "features": [
+      "return_1d",
+      "return_5d",
+      "return_10d",
+      "return_20d",
+      "log_return_1d",
+      "log_return_5d",
+      "volatility_5d",
+      "volatility_10d",
+      "volatility_20d",
+      "gk_volatility",
+      "high_low_range",
+      "close_position",
+      "gap"
+    ],
+    "entity": "symbol",
+    "ttl_seconds": 300,
+    "description": "Returns, volatility, price position",
+    "version": 1,
+    "tags": {
+      "category": "price",
+      "model_types": "all"
+    }
+  },
+  "trend": {
+    "name": "trend",
+    "features": [
+      "close_to_sma_7",
+      "close_to_sma_14",
+      "close_to_sma_21",
+      "close_to_sma_50",
+      "close_to_sma_100",
+      "close_to_sma_200",
+      "close_to_ema_7",
+      "close_to_ema_14",
+      "close_to_ema_21",
+      "close_to_ema_50",
+      "close_to_ema_100",
+      "close_to_ema_200",
+      "macd_norm",
+      "macd_signal_norm",
+      "macd_hist_norm",
+      "adx",
+      "di_plus",
+      "di_minus",
+      "trend_strong",
+      "trend_very_strong",
+      "di_spread",
+      "close_to_ichimoku_a",
+      "close_to_ichimoku_b",
+      "close_to_ichimoku_base",
+      "close_to_ichimoku_conv"
+    ],
+    "entity": "symbol",
+    "ttl_seconds": 3600,
+    "description": "SMA/EMA crossovers, MACD, ADX, Ichimoku",
+    "version": 1,
+    "tags": {
+      "category": "trend",
+      "model_types": "tree,dl"
+    }
+  },
+  "momentum": {
+    "name": "momentum",
+    "features": [
+      "rsi_14",
+      "stoch_k",
+      "stoch_d",
+      "williams_r",
+      "roc_5",
+      "roc_10",
+      "roc_20",
+      "cci_20"
+    ],
+    "entity": "symbol",
+    "ttl_seconds": 300,
+    "description": "RSI, Stochastic, Williams %R, CCI, ROC",
+    "version": 1,
+    "tags": {
+      "category": "momentum",
+      "model_types": "all"
+    }
+  },
+  "volatility": {
+    "name": "volatility",
+    "features": [
+      "bb_width",
+      "bb_position",
+      "atr_pct",
+      "close_to_kc_upper",
+      "close_to_kc_lower",
+      "parkinson_vol_5d",
+      "parkinson_vol_20d"
+    ],
+    "entity": "symbol",
+    "ttl_seconds": 300,
+    "description": "Bollinger Bands, ATR, Keltner, Parkinson",
+    "version": 1,
+    "tags": {
+      "category": "volatility",
+      "model_types": "all"
+    }
+  },
+  "volume": {
+    "name": "volume",
+    "features": [
+      "obv_change",
+      "mfi_14",
+      "ad_change",
+      "volume_ratio",
+      "close_to_vwap",
+      "volume_surge",
+      "volume_surge_flag"
+    ],
+    "entity": "symbol",
+    "ttl_seconds": 300,
+    "description": "OBV, MFI, A/D, VWAP, volume ratios",
+    "version": 1,
+    "tags": {
+      "category": "volume",
+      "model_types": "all"
+    }
+  },
+  "statistical": {
+    "name": "statistical",
+    "features": [
+      "skewness_20",
+      "kurtosis_20",
+      "zscore_20",
+      "zscore_50",
+      "autocorr_5"
+    ],
+    "entity": "symbol",
+    "ttl_seconds": 3600,
+    "description": "Skewness, kurtosis, z-score, autocorrelation",
+    "version": 1,
+    "tags": {
+      "category": "statistical",
+      "model_types": "tree"
+    }
+  },
+  "calendar": {
+    "name": "calendar",
+    "features": [
+      "day_of_week",
+      "month",
+      "quarter",
+      "is_month_start",
+      "is_month_end"
+    ],
+    "entity": "symbol",
+    "ttl_seconds": 86400,
+    "description": "Day of week, month, quarter, month boundaries",
+    "version": 1,
+    "tags": {
+      "category": "calendar",
+      "model_types": "tree"
+    }
+  },
+  "lags": {
+    "name": "lags",
+    "features": [
+      "close_return_lag_1",
+      "close_return_lag_2",
+      "close_return_lag_3",
+      "close_return_lag_5",
+      "close_return_lag_10",
+      "volume_return_lag_1",
+      "volume_return_lag_2",
+      "volume_return_lag_3",
+      "return_lag_1",
+      "return_lag_2",
+      "return_lag_3",
+      "return_lag_5",
+      "return_lag_10",
+      "return_lag_20"
+    ],
+    "entity": "symbol",
+    "ttl_seconds": 300,
+    "description": "Lagged returns and volume changes",
+    "version": 1,
+    "tags": {
+      "category": "lags",
+      "model_types": "tree"
+    }
+  },
+  "symbol_meta": {
+    "name": "symbol_meta",
+    "features": [
+      "symbol_encoded"
+    ],
+    "entity": "symbol",
+    "ttl_seconds": 86400,
+    "description": "Symbol encoding for multi-symbol models",
+    "version": 1,
+    "tags": {
+      "category": "meta",
+      "model_types": "tree"
+    }
+  }
+}
